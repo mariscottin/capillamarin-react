@@ -1,0 +1,105 @@
+.adminTab{
+    width: 85%;
+    margin: 20px auto;
+
+}
+
+.adminTab__tabs{
+    display: flex;
+}
+
+.adminTab__tab{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.adminTab__homilias{
+    margin-left: 5px;
+}
+
+.adminTabs__tab-active{
+    background: lightgray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.adminTab__container{
+    position: relative;
+    min-height: 70vh;
+    padding: 25px 25px 50px 25px;
+    background: lightgray;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.adminTab__container > h4{
+    margin-bottom: 25px;
+}
+
+.adminTab__table{
+    margin-top: 35px;
+}
+
+.adminTab__table img{
+    width: 38px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.adminTab__table img:hover{
+    transform: scale(1.15);
+}
+
+.adminTab__table .MuiSvgIcon-root{
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+.adminTab__table .view-icon:hover {
+    color:#007bff;
+}
+
+.adminTab__table .delete-icon:hover {
+    color:#dc3545;
+}
+
+.adminTab__viewAll{
+    position: absolute;
+    bottom: 15px;
+    left: 55px;
+    color: rgba(22, 99, 182, 0.8);
+    cursor: pointer;
+}
+
+.alert{
+    position: relative;
+}
+
+.close-alert{
+    position: absolute;
+    top: 3px;
+    right: 13px;
+    cursor: pointer;
+}
+
+@media(min-width: 1041px){
+    .adminTab__container .table-responsive{
+        display: inline-table !important;
+    }
+}
+/* 
+@media(max-width: 677px){
+    .adminTab__table{
+        width: 80%;
+    }
+
+    .adminTab__table > table{
+        width: 80%;
+    }
+} */
+

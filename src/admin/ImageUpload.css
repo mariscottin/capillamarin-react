@@ -1,0 +1,36 @@
+.imageUpload{
+    margin-right: 18px;
+}
+
+.imageUpload__select, .imageUpload__preview{
+    width: 94px;
+    height: 94px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.imageUpload__preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .imageUpload__select{
+    cursor: pointer;
+  }
+
+  .imageUpload__selectAnother{
+    color: rgb(43, 124, 231);
+    text-align: center;
+}
+
+.imageUpload__selectAnother:hover{
+    cursor: pointer;
+    color: rgb(12, 104, 224);
+    text-decoration: underline;
+}

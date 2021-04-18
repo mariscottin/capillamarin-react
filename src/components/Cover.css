@@ -1,0 +1,25 @@
+.cover{
+    height: 486px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    background-image: url('../assets/img/cover-background-desktop.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media(max-width: 991px){
+    .cover{
+        background-image: url('../assets/img/cover-background-tablet.jpeg');
+    }
+}
+
+@media(max-width: 678px){
+    .cover{
+        background-image: url('../assets/img/cover-background-mobile.jpeg');
+    }
+}

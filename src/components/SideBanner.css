@@ -1,0 +1,52 @@
+.sidebanner h4{
+    font-weight: lighter;
+    margin: 0 0 6px 0;
+    font-size:1.25rem;
+}
+
+.sidebanner-general{
+    margin-top: 28px;
+}
+
+.evangelio-dia{
+    margin-top: 0;
+}
+
+.sidebanner-general .light-blue-link{
+    color: #C6EAFF;
+    font-size: 12px;
+}
+
+.sidebanner-general .light-blue-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #b2e2fd;
+}
+
+.sidebanner-general p{
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.horarios-misa table{
+    width: 90%;
+    margin: auto;
+    margin-top: 6px;
+    font-size: 12px;
+    border-spacing: 2px;
+    border-collapse: collapse;
+}
+
+.horarios-misa tr {
+    border-bottom: 1px solid #fff;
+}
+
+.horarios-misa th, .horarios-misa td{
+    padding: 12px 0;
+}
+
+@media(max-width: 1132px){
+    .horarios-misa table{
+        width: 200px;
+    }
+}

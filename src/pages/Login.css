@@ -1,0 +1,66 @@
+.login{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: rgb(209, 209, 209);
+    margin-top: -78px;
+    padding: 0;
+}
+
+.login__container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 80%;
+    max-height: 460px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+    padding: 22px;
+    
+}
+
+.login__brandContainer{
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.login__brandContainer > img {
+    width: 68px;
+    margin: auto;
+}
+
+.login__brandContainer > h1{
+    font-size: 34px;
+    margin: 0;
+}
+
+.login__submitContainer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login__backContainer{
+    text-align: center;
+    padding-top: 16px;
+}
+
+@media(max-width: 446px){
+    .login__container{
+        width: 90%;
+    }
+
+    .login__brandContainer > h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-height: 525px){
+    .login__container{
+        overflow-y: scroll;
+    }
+}

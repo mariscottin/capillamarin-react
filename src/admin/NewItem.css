@@ -1,0 +1,29 @@
+.newItemForm__back{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: rgba(22, 99, 182, 0.8);
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.newItemForm__back:hover{
+    color:#007bff;
+}
+
+.newItem__images-upload-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.newItem__homiliaFileSelect{
+    max-width: 422px;
+}
+
+.newItem__homilia-upload{
+    cursor: pointer;
+}
+
+.newItem__submitContainer{
+    display: flex;
+}

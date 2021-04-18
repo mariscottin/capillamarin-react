@@ -1,0 +1,14 @@
+.novedadesList__image{
+    width: 75px;
+}
+
+.novedadesList__row:hover{
+    cursor: pointer;
+    background: rgb(231, 231, 231) !important;
+}
+
+@media(min-width: 834px){
+    .novedadesList{
+        display: inline-table !important;
+    }
+}

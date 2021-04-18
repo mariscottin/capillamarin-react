@@ -1,0 +1,38 @@
+.adminHeader{
+    height: 68px;
+    background-color: lightgray;
+    box-shadow: 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -78px;
+    padding: 5px 25px;
+}
+
+.adminHeader__brand{
+    display: flex;
+    align-items: center;
+}
+
+.adminHeader__brand > img {
+    width: 52px;
+}
+
+.adminHeader__brand > h3 {
+    margin: 0;
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.adminHeader__nav > div {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: rgba(22, 99, 182, 0.8);
+    cursor: pointer;
+}
+
+.adminHeader__nav > div:hover{
+    color: rgb(22, 99, 182);
+    text-decoration: underline;
+}

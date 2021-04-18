@@ -1,0 +1,8 @@
+.sidebar__container{
+    scrollbar-width: 0;
+}
+
+.sidebar__container::-webkit-scrollbar {
+    width: 0;
+   }
+ 

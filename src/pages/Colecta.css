@@ -1,0 +1,42 @@
+.colecta__container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.qr-img {
+    max-width: 400px !important;
+}
+
+.thks-msg__container{
+    align-self: center;
+}
+
+.thks-msg {
+    display: flex;
+    background: #76323F;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    padding: 12px;
+    height: 88px;
+    width: 88px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.qr-img__container{
+    margin: auto;
+}
+
+@media(max-width: 991px){
+    .colecta__container{
+        display: block;
+    }
+
+    .thks-msg__container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}

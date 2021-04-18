@@ -1,0 +1,48 @@
+.novedadPage{
+    min-height: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.novedadPage h1{
+    padding-bottom: 20px;
+}
+
+.novedadPage__images{
+    max-width: 500px;
+}
+
+.novedadPage img:hover{
+    cursor: pointer;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+@media(max-width: 661px){
+    .novedadPage__images{
+        width: 80%;
+    }
+}
+
+@media(max-width: 484px){
+    .novedadPage{
+        width: 90%
+    }
+
+    .novedadPage img{
+        max-height: 400px;
+        object-fit: contain;
+        width: 100%;
+    }
+}
